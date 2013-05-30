@@ -1,0 +1,35 @@
+JQuery Autocomplete Search Algorithm
+================
+	Its a smart search algorithm build to improve search quality day by day on a website . It is a jquery and mysql based search box with addons like jquery autocomplete to give smart suggestions for search .
+
+
+Min Requirements
+===================
+
+	1. jQuery 1.9.0
+	2. jQuery-UI (Autocomplete)
+	3. PHP
+	4. MySQL
+ 
+Functional Req
+===================
+ 
+	1.processData.php
+	// constants for data connection with mysql
+	// process search query to database
+	
+	2. myautocomplete.js
+	// holds functions for processing from front end.
+	//getKeywords(type, block) is the main function with "type" as the search category and "block" as the search data .
+	// please make sure in the jQuery ajax call the URL is as per your process page .
+		
+
+Changelog
+===================
+
+	30.05.2013
+	- libs updated to: jQueryAutocompleteSearch v0.1
+	
+Contact
+===================
+tarun14691@gmail.com
